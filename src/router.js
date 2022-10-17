@@ -10,11 +10,11 @@ const Routers = () => (
   <BrowserRouter>
     <Routes>
       <Route path='/' element={
-        <Dashboard />
-        } />
-      <Route path='/' element={
         <LayoutFrame />
       }>
+        <Route path='/' element={
+         <Dashboard />
+        } />
         {/* for element with header and footer */}
         <Route path="/dashboard" exact element={
           <Dashboard />

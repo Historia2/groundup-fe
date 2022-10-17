@@ -1,5 +1,5 @@
 //PREFIX
-const V1 = '/api/v1';
+const V1 = '/v1';
 
 const ALL_ANOMALIES = `${V1}/anomaly/all`;
 const EDIT_ANOMALIES = `${V1}/anomaly/update`;
